@@ -11,7 +11,7 @@ ev_diag.serport = cc.config['DEFAULT']['Port']
 
 
 def clear():
-    os.system('cls')
+    os.system('clear')
 
 
 def print_header():
