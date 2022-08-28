@@ -11,7 +11,7 @@ ev_diag.serport = cc.config['DEFAULT']['Port']
 
 
 def clear():
-    os.system('clear')
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 
 def print_header():
