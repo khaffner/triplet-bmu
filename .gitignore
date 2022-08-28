@@ -1,7 +1,7 @@
 dist/
 build/
 __pycache__/
-*.ini
+#config.ini
 *.spec
 raw_can.txt
 raw_can_scanner.txt
